@@ -7,3 +7,5 @@ Language of choice: Python 3.x
 
 We should develop with the end user and actionable products in mind, for instance
 a web app that can assist first responders.
+
+Expecting pull-requests as soon as possible by the global machine learning / ai / hacker commununity.
