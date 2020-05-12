@@ -19,7 +19,7 @@ workers = workers.T
 workers.index = pd.to_datetime(workers.index)
 workers.sort_index(inplace=True)
 workers.index.name = 'cal_dt'
-workers.to_csv(f'number_of_hourly_employees_{datetime.today().date()}.csv')
+workers.to_csv(f'number_of_hourly_employee.csv')
 
 # workers = pd.read_csv(f'number_of_hourly_employees_{datetime.today().date()}.csv').set_index('cal_dt')
 # workers.index = pd.to_datetime(workers.index)
