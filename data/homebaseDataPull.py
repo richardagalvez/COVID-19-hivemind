@@ -7,7 +7,7 @@ workers.index = workers.index + 1
 workers.loc[0] = workers.columns
 workers.sort_index(inplace=True)
 
-may_dates   = [f'5-{day}-2020' for day in range(11, 0, -1)]
+may_dates   = [f'5-{day}-2020' for day in range(14, 0, -1)]
 april_dates = [f'4-{day}-2020' for day in range(30, 0, -1)]
 march_dates = [f'3-{day}-2020' for day in range(31, 0, -1)]
 
